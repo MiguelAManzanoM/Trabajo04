@@ -1,5 +1,5 @@
 // Se hace la conexión con el servidor
-var socketFront = io.connect('http://localhost:4000');
+var socketFront = io.connect('https://miguel-manzano.onrender.com');
 
 // Variables del html
 var mensaje = document.getElementById('mensaje'),
