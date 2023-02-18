@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Trabajo04_Chat_NodeJS</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.0/socket.io.js"></script>
+        <link href="/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="datosEstudiante">
+            <p style="color: rgb(0, 0, 0)">
+                Miguel Ángel Manzano Méndez - Trabajo 04: Chat con Node JS | Programación para Internet I5909 - D03
+            </p>
+        </div>
+        <div id="chat">
+            <div id="tituloChat">
+                <h2>Chat Concurrente con NodeJS</h2>
+            </div>
+            <input id="remitente" type="text" placeholder="Remitente"/>
+            <div id="areaMensajes">
+                <div id="output"></div>
+                <div id="feedback"></div>
+            </div>
+            <textarea id="mensaje" type="text" placeholder="Escribe un mensaje"></textarea>
+            <button id="enviar">Enviar mensaje</button>
+        </div>
+
+    </body>
+    <script src="/chat.js"></script>
+</html>

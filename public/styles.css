@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(29, 6, 51);
+    font-family: 'Nunito';
+}
+
+.datosEstudiante{
+    text-align: center;
+    background-color: rgb(139, 184, 185);
+}
+
+h2{
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #ffdb8d;
+    text-align: center;
+}
+
+#tituloChat{
+    background-color: rgb(94, 94, 94);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#chat{
+    width: 600px;
+    margin: 30px auto;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+#areaMensajes{
+    height: 400px;
+    overflow: auto;
+    background: #041f27;
+}
+
+#output p{
+    padding: 14px 0px;
+    margin: 0 20px;
+    border-bottom: 1px solid #e9e9e9;
+    color: #ffffff;
+}
+
+#feedback p{
+    color: #aaa;
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+#output strong{
+    color: #b93817;
+}
+
+label{
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+}
+
+input{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: #eee;
+    border: 0;
+    display: block;
+    width: 100%;
+    background: #d4d4d4;
+    border-bottom: 1px solid #eee;
+    font-family: Nunito;
+    font-size: 16px;
+}
+
+#mensaje{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: #eee;
+    border: 0;
+    display: block;
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    font-family: Nunito;
+    font-size: 16px;
+}
+
+button{
+    background: #da7439;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 0;
+    width: 100%;
+    border: 0;
+    border-radius: 0 0 2px 2px;
+}
+
+button:hover{
+    background: #b95e2a;
+}
