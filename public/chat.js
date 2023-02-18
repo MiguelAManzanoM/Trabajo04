@@ -10,9 +10,9 @@ var mensaje = document.getElementById('mensaje'),
 
 // Emitir eventos
 botonEnviar.addEventListener('click', function(){
-    if(mensaje.value != '')
+    if(mensaje.value !== '')
     {
-        if(remitente.value == '')
+        if(remitente.value === '')
         {
             remitente.value = 'Anónimo';
         }
